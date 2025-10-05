@@ -1,0 +1,313 @@
+[
+    {
+    "question": "Mely állítások igazak a CRC kártyákra?",
+    "options": [
+      {
+        "text": "Osztályok meghatározása nem diagramok alapján, hanem táblázatos lapok segítségével.",
+        "correct": true
+      },
+      {
+        "text": "UML-ben hibajavítás során használhatóak",
+        "correct": false
+      },
+      {
+        "text": "A leírásban csak metódusokat kell szerepeltetni.",
+        "correct": false
+      },
+      {
+        "text": "A leírásban nem metódusokat és attribútumok, hanem az osztályokhoz rendelhető felelősségek vannak",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Osztálydiagramok készítésének milyen fázisai vannak?",
+    "options": [
+      {
+        "text": "Elemzési osztálydiagram",
+        "correct": true
+      },
+      {
+        "text": "Kollaborációs osztálydiagram",
+        "correct": false
+      },
+      {
+        "text": "Tervezési osztálydiagram",
+        "correct": true
+      },
+      {
+        "text": "Megvalósítási osztálydiagram",
+        "correct": true
+      },
+      {
+        "text": "Osztálydiagram a tervezési minták kialakításához",
+        "correct": false
+      },
+      {
+        "text": "Futásidejű osztálydiagram",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "UML osztálydiagramon hogyan kell értelmezni két osztály közötti vonalat?",
+    "options": [
+      {
+        "text": "asszociáció",
+        "correct": true
+      },
+      {
+        "text": "kooperáció",
+        "correct": false
+      },
+      {
+        "text": "aggregáció",
+        "correct": false
+      },
+      {
+        "text": "kompozíció",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "UML osztálydiagram számosság jelölésére melyek a szintaktikailag helyes válaszok?",
+    "options": [
+      {
+        "text": "0..1",
+        "correct": true
+      },
+      {
+        "text": "*..0",
+        "correct": false
+      },
+      {
+        "text": "Egyik sem, a számosság másképpen van jelölve.",
+        "correct": false
+      },
+      {
+        "text": "0..*",
+        "correct": true
+      },
+       {
+        "text": "*",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Osztálydiagram esetén mire jó a fogalmi szótár?",
+    "options": [
+      {
+        "text": "Magyarázatot ad a modellben felhasznált fogalmakra, szinonímákkal, fogalmi környezettel",
+        "correct": true
+      },
+      {
+        "text": "Magyarázatot ad a modellben felhasznált metódusokra, tevékenységdiagramokkal.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állítást!",
+    "options": [
+      {
+        "text": "Osztálydiagramon az asszociáció kapcsolatot jelöl, a kompozíció tulajdonlást.",
+        "correct": true
+      },
+      {
+        "text": "Osztálydiagramon a kompozíció kapcsolatot jelöl, az asszociáció tulajdonlást.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "UML osztálydiagramon mi a kompozíció jele?",
+    "options": [
+      {
+        "text": "Fekete rombusz végű vonal, rombusz a tartalmazott oldalon",
+        "correct": false
+      },
+      {
+        "text": "Nyílt fejű nyíl",
+        "correct": false
+      },
+      {
+        "text": "Telt fejű nyíl, az ős felöli olalon",
+        "correct": false
+      },
+      {
+        "text": "Fekete rombusz végű vonal, rombusz a tartalmazó oldalon",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+{
+    "question": "Melyik (osztálydiagram) kapcsolattípusra igaz az alábbi állítás: A tartalmazó objektum megszűntével az összes részobjektum is felszámolódik",
+    "options": [
+      {
+        "text": "Öröklődés",
+        "correct": false
+      },
+      {
+        "text": "Kompozíció",
+        "correct": true
+      },
+      {
+        "text": "Asszociáció",
+        "correct": false
+      },
+      {
+        "text": "Kooperáció",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Melyik (osztálydiagram) kapcsolattípusra igaz az alábbi állítás: A tartalmazó objektum megszűntével az összes részobjektum is felszámolódik",
+    "options": [
+      {
+        "text": "Lekerekített sarkú téglalap",
+        "correct": false
+      },
+      {
+        "text": "3 részre osztott téglalap",
+        "correct": true
+      },
+      {
+        "text": "Ellipszis",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Mely állítások igazak osztálydiagram osztály rajzelemre?",
+    "options": [
+      {
+        "text": "Egyszerű téglalap, benne use case elnevezése",
+        "correct": false
+      },
+      {
+        "text": "Egyszerű téglalap, benne az osztály neve",
+        "correct": true
+      },
+      {
+        "text": "3 részre osztott téglalap, benne osztálynév, aktor és use case lista",
+        "correct": false
+      },
+      {
+        "text": "3 részre osztott téglalap, benne osztálynév, attribútumok és műveletek",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Osztálydiagramon mit jelent a dőlt betűs osztálynév?",
+    "options": [
+      {
+        "text": "Statikus osztály, azaz nem lehetnek példányai",
+        "correct": false
+      },
+      {
+        "text": "Absztrakt osztály, azaz nem lehetnek példányai",
+        "correct": true
+      },
+      {
+        "text": "Controller típusú osztály",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Osztálydiagramon mit jelent az <<abstract>> sztereotípia?",
+    "options": [
+      {
+        "text": "Olyan osztályt jelöl, melyet nem lehet további öröklési hierarchiában felhasználni.",
+        "correct": false
+      },
+      {
+        "text": "Olyan osztályt jelöl, melynek nem lehetnek példányai",
+        "correct": true
+      },
+      {
+        "text": "Adatbázis interfészt jelöl",
+        "correct": false
+      },
+      {
+        "text": "Olyan osztályt jelöl, melynek szigorúan csak egy példánya létezhet",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Osztálydiagramon mit jelent az <<entity>> sztereotípia?",
+    "options": [
+      {
+        "text": "A felhasználó számára fontos entitások jelölésére szolgál",
+        "correct": false
+      },
+      {
+        "text": "Az adatbázisbe írást megvalósító osztályok jelölése",
+        "correct": false
+      },
+      {
+        "text": "Azon osztályok jelölése, melyek attribútumait perzisztálni kell",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Osztálydiagramon mit jelent az <<boundary>> sztereotípia?",
+    "options": [
+      {
+        "text": "A felhasználó számára fontos entitások jelölésére szolgál",
+        "correct": false
+      },
+      {
+        "text": "Olyan osztályt jelöl, melyet nem lehet további öröklési hierarchiában felhasználni.",
+        "correct": false
+      },
+      {
+        "text": "Statikus osztály, azaz nem lehetnek példányai",
+        "correct": false
+      },
+      {
+        "text": "A felhasználói felülethez tartozó osztályok jelölése ez",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Osztálydiagramon mit jelent az <<uses>> sztereotípia?",
+    "options": [
+      {
+        "text": "Interfész használatot",
+        "correct": true
+      },
+      {
+        "text": "Öröklődést",
+        "correct": false
+      },
+      {
+        "text": "Aktor általi használatot",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  }
+
+]
