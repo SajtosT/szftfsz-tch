@@ -1,5 +1,5 @@
 [
-    {
+  {
     "question": "Mely állítások igazak a CRC kártyákra?",
     "options": [
       {
@@ -92,7 +92,7 @@
         "text": "0..*",
         "correct": true
       },
-       {
+      {
         "text": "*",
         "correct": true
       }
@@ -149,7 +149,7 @@
     ],
     "explanation": ""
   },
-{
+  {
     "question": "Melyik (osztálydiagram) kapcsolattípusra igaz az alábbi állítás: A tartalmazó objektum megszűntével az összes részobjektum is felszámolódik",
     "options": [
       {
@@ -308,6 +308,493 @@
       }
     ],
     "explanation": ""
+  },
+  {
+    "question": "Mi a dialóguslefutás?",
+    "options": [
+      {
+        "text": "Olyan állapotautomata, mely a képernyő állapotait modellezi",
+        "correct": true
+      },
+      {
+        "text": "Olyan szek",
+        "correct": false
+      },
+      {
+        "text": "A vezérlőautomata olyan állapotgép, mely műszaki eszközt, rendszert vezérel, vagy ír le",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Mi a vezérlőautomata?",
+    "options": [
+      {
+        "text": "A vezérlőautomata olyan állapotgép, mely műszaki eszközt, rendszert vezérel, vagy ír le",
+        "correct": true
+      },
+      {
+        "text": "A vezérlőautomata olyan telepítési diagram, mely műszaki eszközt, rendszert vezérel, vagy ír le",
+        "correct": false
+      },
+      {
+        "text": "A vezérlőautomata olyan osztálydiagram, mely műszaki eszközt, rendszert vezérel, vagy ír le",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Mit jelent az emlékező állapot?",
+    "options": [
+      {
+        "text": "Olyan állapot, amelyik emlékszik arra, hogy melyik állapotból származott a vezérjel, amikor odaért",
+        "correct": false
+      },
+      {
+        "text": "Olyan állapot, amelyik emlékszik arra, hogy melyik alállapotból terminált, és képes arra, hogy az állapotba való újabb belépéskor ugyanabba az állapotba kerüljön.",
+        "correct": true
+      },
+      {
+        "text": "Olyan állapot, amelyik emlékszik arra, hogy a vezérjel hányszor volt már jelen ebben az állapotban, illetve igényű esetén mérhető az állapotban töltött idő hossza is",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Refaktoring során a funkcionalitás nem változik meg",
+        "correct": true
+      },
+      {
+        "text": "Refaktoring során elképzelhető, hogy új metódusok kerülnek egy osztályba.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az osztálydiagramon osztályokra alkalmazható sztereotípiákat!",
+    "options": [
+      {
+        "text": "<<implements>>",
+        "correct": false
+      },
+      {
+        "text": "<<uses>>",
+        "correct": false
+      },
+      {
+        "text": "<<entity>>",
+        "correct": true
+      },
+      {
+        "text": "<<boundary>>",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Alapvetően melyik diagramon lehet események bekövetkezését jelölni?",
+    "options": [
+      {
+        "text": "Use case diagram",
+        "correct": false
+      },
+      {
+        "text": "Szekvencia diagram",
+        "correct": false
+      },
+      {
+        "text": "Állapot-álmenet diagram",
+        "correct": true
+      },
+      {
+        "text": "Osztálydiagram",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Alapvetően melyik UML diagramon lehetséges üzenetek feltüntetése?",
+    "options": [
+      {
+        "text": "Use case diagram",
+        "correct": false
+      },
+      {
+        "text": "Szekvencia diagram",
+        "correct": true
+      },
+      {
+        "text": "Állapot-álmenet diagram",
+        "correct": false
+      },
+      {
+        "text": "Osztálydiagram",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Egy adott objektum dinamikus működésének leírására az osztálydiagram szolgál.",
+        "correct": false
+      },
+      {
+        "text": "Egy adott objektum dinamikus működésének leírására az objektumdiagram szolgál.",
+        "correct": false
+      },
+      {
+        "text": "Egy adott objektum dinamikus működésének leírására az állapot-átmenet diagram szolgál.",
+        "correct": true
+      },
+      {
+        "text": "Egy adott objektum dinamikus működésének leírására a tevékenységdiagram szolgál.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Többszintű öröklődés esetén van olyan osztály, melynek őse és leszármazottja is van.",
+        "correct": true
+      },
+      {
+        "text": "Többszörös öröklődés esetén van olyan osztály, melynek őse és leszármazottja is van.",
+        "correct": false
+      },
+      {
+        "text": "Többszörös öröklődés esetén lehet olyan osztály, melynek több őse és több leszármazottja van.",
+        "correct": true
+      },
+      {
+        "text": "Többszörös öröklődés esetén lehet olyan osztály, melynek több őse és egy leszármazottja van.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Az absztrakt osztály nem példányosítható.",
+        "correct": true
+      },
+      {
+        "text": "Az absztrakt osztály nem példányosítható, de örököltethető belőle másik osztály.",
+        "correct": true
+      },
+      {
+        "text": "Az absztrakt osztály nem példányosítható és öröklésben is csak egy leszármazottja lehet.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Több objektum együttes működésének leírására az állapotgép alkalmas.",
+        "correct": false
+      },
+      {
+        "text": "Függőség két osztály között akkor áll fenn, ha van közöttük közös aktor.",
+        "correct": false
+      },
+      {
+        "text": "Függőség két osztály között akkor áll fenn, ha egyik specifikációjának megváltozása kihathat a másik osztály specifikációjára.",
+        "correct": true
+      },
+      {
+        "text": "Az absztrakt osztály csak limitált számú példánnyal rendelkezhet.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Az UML-specifikáció részét képező OCL nyelv megszorítások definiálására alkalmas.",
+        "correct": true
+      },
+      {
+        "text": "Az UML-specifikáció részét képező OCL nyelv pszeudo-kód és ábrarészletek definiálására alkalmas.",
+        "correct": false
+      },
+      {
+        "text": "A <<boundary>> sztereotípia osztályokra alkalmazható.",
+        "correct": true
+      },
+      {
+        "text": "A <<boundary>> sztereotípia képernyőrészletekre alkalmazható.",
+        "correct": false
+      },
+      {
+        "text": "OO tervezésben egy CRC-kártya osztályokhoz felelősségeket határozhat meg.",
+        "correct": true
+      },
+      {
+        "text": "OO tervezésben egy CRC-kártya fejlesztőkhöz felelősségeket határozhat meg.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "A telepítési diagram minden egyes csomópontja (node) valamilyen számítási feldolgozási egységet képvisel, egyszoftver vagy egy hardver elemet.",
+        "correct": true
+      },
+      {
+        "text": "A telepítési és komponens diagramok nem kombinálhatóak közös ábrába.",
+        "correct": false
+      },
+      {
+        "text": "A telepítési diagram minden egyes csomópontja (node) valamilyen számítási feldolgozási egységet képvisel, egy szoftver vagy egy hardver elemet. A hardver lehet egy kisebb egység, de lehet egy teljes számítógép is.",
+        "correct": true
+      },
+      {
+        "text": "A telepítési és komponens diagramok nem kombinálhatóak közös ábrába.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Komponens diagramon a <<file>> sztereotípia használható komponensek jellemzésére.",
+        "correct": true
+      },
+      {
+        "text": "Komponens diagramon a <<instanceOf>> sztereotípia használható komponensek jellemzésére.",
+        "correct": false
+      },
+      {
+        "text": "Komponens diagramon a <<library>> sztereotípia használható komponensek jellemzésére.",
+        "correct": true
+      },
+      {
+        "text": "Komponens diagramon a <<property>> sztereotípia használható komponensek jellemzésére.",
+        "correct": false
+      },
+      {
+        "text": "Komponens diagramon a <<document>> sztereotípia használható komponensek jellemzésére.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Komponens diagramon a <<executable>> sztereotípia használható komponensek jellemzésére.",
+        "correct": true
+      },
+      {
+        "text": "Komponens diagramon a <<trace>> sztereotípia használható komponensek jellemzésére.",
+        "correct": false
+      },
+      {
+        "text": "Komponens diagramon a <<implements>> sztereotípia használható komponensek jellemzésére.",
+        "correct": false
+      },
+      {
+        "text": "Komponens diagramon a <<snapshot>> sztereotípia használható komponensek jellemzésére.",
+        "correct": false
+      },
+      {
+        "text": "Komponens diagramon a <<file>> sztereotípia használható komponensek jellemzésére",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "UML szimbóluma egy téglalap, amelynek bal oldalát két kisebb téglalap metszi.",
+        "correct": true
+      },
+      {
+        "text": "Egy komponensben csak egy implementációs osztály valósulhat meg, vagy számos tervezési osztály.",
+        "correct": false
+      },
+      {
+        "text": "UML szimbóluma egy téglalap, amelynek jobb felső sarkát körbe írt paraméter jellemezheti.",
+        "correct": false
+      },
+      {
+        "text": "Egy komponensben számos implementációs osztály valósulhat meg.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "A komponens diagram a komponensekből felépülő szoftver-rendszer struktúráját vázolja fel.",
+        "correct": true
+      },
+      {
+        "text": "A komponens adott modellelemek (osztályok, csomagok) fizikai egysége.",
+        "correct": true
+      },
+      {
+        "text": "A komponens diagram jól modellezi a szoftver-komponensek egymáshoz való viszonyát, kommunikációját.",
+        "correct": true
+      },
+      {
+        "text": "A komponens adott modellelemek (use case és forgatókönyv) fizikai egysége.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Jelenleg úgy a teljesség, mint a konzisztencia megléte bizonyítható emulációs szoftverek segítségével.",
+        "correct": false
+      },
+      {
+        "text": "Jelenleg nincs megoldva még a teljesség bizonyításának vagy cáfolásának feladata.",
+        "correct": true
+      },
+      {
+        "text": "Jelenleg ugyan rendelkezésre áll olyan módszer, ill. a módszert megvalósító számítógépes eszköz, ami egy szoftver-terv UML-diagramjai közötti összhang bizonyítására, ill. cáfolására alkalmas lenne, ám ennek használata nem terjedt el.",
+        "correct": false
+      },
+      {
+        "text": "Jelenleg nem áll rendelkezésre olyan módszer, ill. a módszert megvalósító számítógépes eszköz, ami egy szoftverterv UML-diagramjai közötti összhang bizonyítására, ill. cáfolására lenne alkalmas.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Egy UML tervezési modellt teljesnek nevezünk, ha az általa leírt szoftver-rendszer állapotai és viselkedési módjai mindegyik lehetséges működési esetre és feltételre specifikálva lettek.",
+        "correct": true
+      },
+      {
+        "text": "Egy UML tervezési modellt teljesnek nevezünk, ha abban minden – szakterület által megkívánt – aktor megtalálható.",
+        "correct": false
+      },
+      {
+        "text": "Egy UML tervezési modellt teljesnek nevezünk, ha az általa leírt use casek és forgatókönyveik mindegyik lehetséges forgatókönyveik specifikálva lettek.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Egy inkonzisztens specifikáció azzal jár, hogy nem lehet meghatározni a use casek közötti összefüggéseket.",
+        "correct": false
+      },
+      {
+        "text": "Egy inkonzisztens specifikáció azzal jár, hogy nem lehet belőle olyan szoftvert fejleszteni, ami működőképes lenne.",
+        "correct": true
+      },
+      {
+        "text": "Egy inkonzisztens specifikáció azzal jár, hogy lesznek olyan osztályok, melyek ugyan meg vannak valósítva, de használatban nincsenek.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Egy UML-modell összefüggő (konzisztens), ha use case diagramjain nincs sem olyan use case, sem olyan aktor, mely nem vesz részt interakcióban.",
+        "correct": false
+      },
+      {
+        "text": "Egy UML-modell összefüggő (konzisztens), ha osztálydiagramján nincs elszigetelt osztály.",
+        "correct": false
+      },
+      {
+        "text": "Egy UML-modell összefüggő (konzisztens), ha létezik hozzá egy bizonyos lehetséges működőképes implementáció",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Igaz-e az alábbi állítás: Egyszerű történeti állapot estén (Közvetlen tartalmazó állapotba érkezéskor a közvetlen tartalmazott régióban elsőként) a történeti állapot rákövetkező állapotába kerül a vezérlés, amennyiben a történeti állapot üres. Ha nem üres, akkor azt az állapotot veszi fel újra az automata, melyben akkor volt, amikor a közvetlen tartalmazó állapot elhagyásra került, de nem csak az állapot, hanem az állapotkonfiguráció kerül visszaállításra.",
+    "options": [
+      {
+        "text": "igaz",
+        "correct": false
+      },
+      {
+        "text": "hamis",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "A dialóguslefutás az állapotgép egyik fajtája, de állapotokként a képernyő állapotait kell feltüntetni.",
+        "correct": true
+      },
+      {
+        "text": "A dialóguslefutás az tevékenységdiagram egyik fajtája, de tevékenységekként a képernyő helyzetét kell feltüntetni..",
+        "correct": false
+      },
+      {
+        "text": "A dialóguslefutás az objektumdiagram egyik fajtája, de objektumok helyett a képernyőket kell feltüntetni.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Igaz-e az alábbi állítás: Mély történeti állapot estén (Közvetlen tartalmazó állapotba érkezéskor a közvetlen tartalmazott régióban elsőként) a történeti állapot rákövetkező állapotába kerül a vezérlés, amennyiben a történeti állapot üres. Ha nem üres, akkor azt az állapotot veszi fel újra az automata, melyben akkor volt, amikor a közvetlen tartalmazó állapot elhagyásra került, de nem csak az állapot, hanem az állapotkonfiguráció kerül visszaállításra.",
+    "options": [
+      {
+        "text": "igaz",
+        "correct": true
+      },
+      {
+        "text": "hamis",
+        "correct": false
+      }
+    ],
+    "explanation": ""
   }
-
 ]
