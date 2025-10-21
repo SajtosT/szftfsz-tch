@@ -796,5 +796,602 @@
       }
     ],
     "explanation": ""
+  },
+  {
+    "question": "Osztálydiagramon mit jelent az <<implements>> sztereotípia?",
+    "options": [
+      {
+        "text": "Interfész megvalósítást",
+        "correct": true
+      },
+      {
+        "text": "Use case megvalósítást",
+        "correct": false
+      },
+      {
+        "text": "Absztrakt osztály megvalósítást",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Osztálydiagramon mit értünk interfész alatt?",
+    "options": [
+      {
+        "text": "Absztrakt osztályt",
+        "correct": false
+      },
+      {
+        "text": "Olyan szerződést, mely metódus szignatúrákat definiál",
+        "correct": true
+      },
+      {
+        "text": "Olyan csatlakozási pontot, mely segítségével külső rendszerekből kérhetünk le adatokat",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Osztálydiagramon hogyan jelöljük az interfészt?",
+    "options": [
+      {
+        "text": "Szaggatott ellipszissel",
+        "correct": false
+      },
+      {
+        "text": "<<implements>> sztereotípiával",
+        "correct": false
+      },
+      {
+        "text": "<<interface>> sztereotípiával",
+        "correct": true
+      },
+      {
+        "text": "Körrel illetve gömbcsuklóval",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Osztálydiagramon mi a különbség egy interfész és egy absztrakt osztály között?",
+    "options": [
+      {
+        "text": "Nincs különbség, de interfészekkel szebb megvalósítás érhető el",
+        "correct": false
+      },
+      {
+        "text": "Egy interfészből tetszőleges számú példány létrehozható, de absztrakt osztályból csak egy",
+        "correct": false
+      },
+      {
+        "text": "Egy interfészből tetszőleges számú példány létrehozható, de absztrakt osztályból egy sem.",
+        "correct": false
+      },
+      {
+        "text": "Interfész csak szignatúrát definiál, az absztrakt osztály megvalósítást is, mely felül nem bírálható",
+        "correct": false
+      },
+      {
+        "text": "Interfész csak szignatúrát definiál, az absztrakt osztály megvalósítást is, mely felülbírálható",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Osztály diagramon mely állítások igazak az aktív osztályokra?",
+    "options": [
+      {
+        "text": "Önmaguktól aktiválódnak, nem kell hozzá külső esemény",
+        "correct": true
+      },
+      {
+        "text": "Felhasználói akcióra aktiválódnak, ez a külső esemény",
+        "correct": false
+      },
+      {
+        "text": "<<activeclass>> sztereotípiával hangsúlyozható",
+        "correct": true
+      },
+      {
+        "text": "<<controller>> sztereotípia kötelező ilyenkor",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Osztálydiagramok esetén mi igaz a taxonómiára?",
+    "options": [
+      {
+        "text": "Csak asszociáció tüntethető fel",
+        "correct": false
+      },
+      {
+        "text": "Csak kompozíció tüntethető fel",
+        "correct": false
+      },
+      {
+        "text": "Csak öröklődési hierarchia tüntethető fel",
+        "correct": true
+      },
+      {
+        "text": "Csak olyan osztályok szerepelhetnek rajta, melyek példányosíthatóak",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Mit jelent: powertype?",
+    "options": [
+      {
+        "text": "Olyan típusok, melyekben a vezérlés lényegi része található",
+        "correct": false
+      },
+      {
+        "text": "Olyan osztályok, melyek példányai egyszerre alosztályok is",
+        "correct": true
+      },
+      {
+        "text": "Olyan osztályok, melyek az öröklési hierarchia tetején találhatóak",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "UML osztálydiagram esetén melyek a kompozíció hierarchia jellemzői?",
+    "options": [
+      {
+        "text": "Csak osztályok tüntethetőek fel, kapcsolatokkal",
+        "correct": true
+      },
+      {
+        "text": "Csak statikus osztályok tüntethetőek fel",
+        "correct": false
+      },
+      {
+        "text": "Csak osztályok és use casek tüntethetőek fel",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": " UML osztálydiagram. Jelölje az igaz állításokat.",
+    "options": [
+      {
+        "text": "Statikus osztály csak tervezési minta szerint példányosítható",
+        "correct": false
+      },
+      {
+        "text": "Statikus osztály nem példányosítható",
+        "correct": true
+      },
+      {
+        "text": "Statikus osztály csak egy példánnyal rendelkezhet",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Mely állítások igazak? Az UML <<snapshot>> sztereotípia…",
+    "options": [
+      {
+        "text": "… kizárólag osztálydiagramon használható",
+        "correct": true
+      },
+      {
+        "text": "… osztály kötelező példányosítását jelöli",
+        "correct": false
+      },
+      {
+        "text": "… osztály objektumára példát mutat",
+        "correct": true
+      },
+      {
+        "text": "… osztály opcionális példányosítását jelöli",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Mely állítások igazak?",
+    "options": [
+      {
+        "text": "Az ER diagram kinyerhető egy jól elkészített osztálydiagramból",
+        "correct": true
+      },
+      {
+        "text": "Az EK diagram kinyerhető egy jól elkészített osztálydiagramból",
+        "correct": true
+      },
+      {
+        "text": "Az ER diagramon meg fog jelenni valamennyi <<entity>> sztereotípiájú osztály",
+        "correct": true
+      },
+      {
+        "text": "Az ER diagramon meg fog jelenni valamennyi <<er>> sztereotípiájú osztály",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Függőségi ciklus hogyan oldható fel",
+    "options": [
+      {
+        "text": "Legtöbbször a kód megduplázásával",
+        "correct": false
+      },
+      {
+        "text": "A ciklusban lévő csomagok közös csomagba helyezésével",
+        "correct": true
+      },
+      {
+        "text": "Csomagimporttal",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Csomagdiagramon mit jelent a {global} kibővítés?",
+    "options": [
+      {
+        "text": "A csomag elemei mindenhol elérhetőek",
+        "correct": true
+      },
+      {
+        "text": "A csomag elemei titkosítottak",
+        "correct": false
+      },
+      {
+        "text": "A csomag elemei nemzetközi használatra készültek",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Csomagdiagramon mit jelent a {abstract} kibővítés?",
+    "options": [
+      {
+        "text": "Még meg nem valósított csomagot",
+        "correct": true
+      },
+      {
+        "text": "Olyan csomagot, melynek nem lehetnek példányai",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "A függőség tranzitív?",
+    "options": [
+      {
+        "text": "Nem",
+        "correct": true
+      },
+      {
+        "text": "Igen",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Mit jelent a tranzitivitás függőségek esetén?",
+    "options": [
+      {
+        "text": "A függőség továbbterjedését",
+        "correct": true
+      },
+      {
+        "text": "A függőségi láncok tiltását",
+        "correct": false
+      },
+      {
+        "text": "Azt, hogy a függő osztályok átlátszóak",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Mit értünk függőség alatt? Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Két tetszőleges elem között akkor létezik függőség, ha az egyik elem specifikációjában, megvalósításában történő változtatás változást okozhat a másik elem specifikációjában, megvalósításában.",
+        "correct": true
+      },
+      {
+        "text": "Az egyik elem megváltoztatása kihat a másik elemre.",
+        "correct": true
+      },
+      {
+        "text": "Az egyik elem törlésével a tartalmazott elem is törlésre kerül",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Csomagdiagramok. Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "A függőségi kapcsolatok, és a csoportosítás osztályokra vonatkozik",
+        "correct": true
+      },
+      {
+        "text": "Az UML-ben a leginkább elterjedt rendezési elv a függőség",
+        "correct": true
+      },
+      {
+        "text": "A fő rajzelem a mappa",
+        "correct": true
+      },
+      {
+        "text": "A másodlagos rajzelem a use case",
+        "correct": false
+      },
+      {
+        "text": "A fő sztereotípia az <<import>>",
+        "correct": true
+      },
+      {
+        "text": "A fő sztereotípia az <<uses>>",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Mely állítások igazak az interakciós diagramokra?",
+    "options": [
+      {
+        "text": "Az interakciós diagram üzenetváltásokat ábrázol",
+        "correct": true
+      },
+      {
+        "text": "Az interakciós diagramon a kölcsönhatásban partner lehet egy osztály",
+        "correct": true
+      },
+      {
+        "text": "Az interakciós diagramon a kölcsönhatásban partner lehet egy interfész",
+        "correct": true
+      },
+      {
+        "text": "Az interakciós diagramon a kölcsönhatásban partner lehet egy use case",
+        "correct": false
+      },
+      {
+        "text": "Az interakciós diagramon a kölcsönhatásban partner lehet egy komponens",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Az alábbiak közül melyek tartoznak az interakciós diagramok közé?",
+    "options": [
+      {
+        "text": "Állapotgép",
+        "correct": false
+      },
+      {
+        "text": "Idődiagram",
+        "correct": true
+      },
+      {
+        "text": "Állapot átmenet diagram",
+        "correct": false
+      },
+      {
+        "text": "Kommunikációs diagram",
+        "correct": true
+      },
+      {
+        "text": "Szekvencia diagram",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Mely állítások igazak az interakciós diagramokra?",
+    "options": [
+      {
+        "text": "Használható követelmények leírására",
+        "correct": true
+      },
+      {
+        "text": "Használható tesztesetek leírására",
+        "correct": true
+      },
+      {
+        "text": "Használható elvárt rendszer felhasználói felület difiniálására",
+        "correct": false
+      },
+      {
+        "text": "Elvárt viselkedés specifikálható vele",
+        "correct": true
+      },
+      {
+        "text": "Használható létező rendszer folyamatainak vizsgálatára",
+        "correct": true
+      },
+      {
+        "text": "Használható létező rendszer folyamatainak dokumentálására",
+        "correct": true
+      },
+      {
+        "text": "Használható létező rendszer folyamatainak vizualizálására",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Interakciós diagramok közül a szekvencia diagram mivel nyújt többet egy kommunikációs diagramnál?",
+    "options": [
+      {
+        "text": "Nincs különbség, azonos információtartalommal bíró ábrákról van szó.",
+        "correct": true
+      },
+      {
+        "text": "Az alapvető különbség az időzítési megkötések feltüntetésében van.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Szekvencia diagram esetén az aktivitási sáv és az életvonal egyszerre kezdődhet",
+        "correct": true
+      },
+      {
+        "text": "Szekvencia diagram esetén az aktivitási sáv kezdete minden esetben megelőzi az életvonal kezdetét, jelezve az inicializálást.",
+        "correct": false
+      },
+      {
+        "text": "Szekvencia diagram esetén az életvonal végével az aktivitási sávnak is végződnie kell",
+        "correct": true
+      },
+      {
+        "text": "Szekvencia diagram esetén az életvonal vége az objektum megszűntét jelöli.",
+        "correct": true
+      },
+      {
+        "text": "Szekvencia diagram esetén az aktivitási sáv széles sávval van jelölve.",
+        "correct": true
+      },
+      {
+        "text": "Szekvencia diagram esetén az aktivitási sávban lehetnek szünetek, kimaradások",
+        "correct": true
+      },
+      {
+        "text": "Szekvencia diagram esetén az életvonalban lehetnek szünetek, kimaradások",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Egy szekvencia diagramon csak egy aktivitási sáv lehet.",
+        "correct": false
+      },
+      {
+        "text": "Egy szekvencia diagramon több életvonal lehet.",
+        "correct": true
+      },
+      {
+        "text": "Egy kommunikációs diagramon sok aktivitási sáv is lehet.",
+        "correct": false
+      },
+      {
+        "text": "Az idődiagramon feltüntethetőek az objektum állapotai",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Mit lát az ábrán? <br> <img src=\"image1.PNG\">",
+    "options": [
+      {
+        "text": "Kommunikációs diagramot, amin egy kliens szolgáltatást hív meg egy szerveren, az visszaigazolja, majd az a kapott eredményt visszaadja.",
+        "correct": false
+      },
+      {
+        "text": "Szekvencia diagramot.",
+        "correct": true
+      },
+      {
+        "text": "Idődiagramot, de mivel hiányzik az időzítés megkötése, ezért csak az alábbi olvasható ki: egy kliens szolgáltatást hív meg egy szerveren, az visszaigazolja, majd az a kapott eredményt visszaadja",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Kommunikációs diagramon a kommunikációs partnerek térbeli elhelyezkedése számít",
+        "correct": false
+      },
+      {
+        "text": "Szekvencia diagramon a kommunikációs partnerek térbeli elhelyezkedése nem számít",
+        "correct": true
+      },
+      {
+        "text": "Idődiagramon a kommunikációs partnerek térbeli elhelyezkedése nem számít",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Kommunikációs diagramon az időt balról jobbra kell értelmezni.",
+        "correct": false
+      },
+      {
+        "text": "Szekvencia diagramon az idő nincs értelmezve.",
+        "correct": false
+      },
+      {
+        "text": "Szekvencia diagramon az időt fentről lefelé kell értelmezni.",
+        "correct": true
+      },
+      {
+        "text": "Idődiagramon az időt balról jobbra kell értelmezni.",
+        "correct": true
+      },
+      {
+        "text": "Kommunikációs diagramon az időt nem értelmezzük.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Szekvencia diagramok használata ott előnyösebb, ahol kevés partner között, de bonyolult minta szerint történik a kommunikáció",
+        "correct": true
+      },
+      {
+        "text": "Kommunikációs diagramok használata ott előnyösebb, ahol kevés partner között, de bonyolult minta szerint történik a kommunikáció.",
+        "correct": false
+      },
+      {
+        "text": "Kommunikációs diagramok használata ott előnyösebb, ahol sok partner között, bonyolult minta szerint történik a nagyszámú üzenetváltás.",
+        "correct": false
+      },
+      {
+        "text": "Kommunikációs diagramok használata ott előnyösebb, ahol sok partner között, inkább egyszerű minta szerint történik a kommunikáció.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
   }
+
 ]
