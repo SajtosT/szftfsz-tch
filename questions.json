@@ -1809,15 +1809,15 @@
         "correct": false
       },
       {
-        "text": "A következő: <img src=\"image5.PNG\"",
+        "text": "A következő: <img src=\"image5.PNG\">",
         "correct": true
       },
       {
-        "text": "A következő: <img src=\"image6.PNG\"",
+        "text": "A következő: <img src=\"image6.PNG\">",
         "correct": true
       },
       {
-        "text": "A következő: <img src=\"image7.PNG\"",
+        "text": "A következő: <img src=\"image7.PNG\">",
         "correct": true
       }
     ],
@@ -1831,15 +1831,15 @@
         "correct": true
       },
       {
-        "text": "A következő: <img src=\"image8.PNG\"",
+        "text": "A következő: <img src=\"image8.PNG\">",
         "correct": true
       },
       {
-        "text": "A következő: <img src=\"image9.PNG\"",
+        "text": "A következő: <img src=\"image9.PNG\">",
         "correct": true
       },
       {
-        "text": "A következő: <img src=\"image10.PNG\"",
+        "text": "A következő: <img src=\"image10.PNG\">",
         "correct": true
       }
     ],
@@ -1867,15 +1867,15 @@
     "question": "Állapotgépek kapcsán melyik összerendelés(ek) helyes?",
     "options": [
       {
-        "text": "<img src=\"image11.PNG\"- Egyszerű kezdő állapot",
+        "text": "<img src=\"image11.PNG\"> - Egyszerű kezdő állapot",
         "correct": true
       },
       {
-        "text": "<img src=\"image12.PNG\"- Mély történeti állapot",
+        "text": "<img src=\"image12.PNG\"> - Mély történeti állapot",
         "correct": false
       },
       {
-        "text": "<img src=\"image13.PNG\"- Egyszerű történeti állapot",
+        "text": "<img src=\"image13.PNG\"> - Egyszerű történeti állapot",
         "correct": false
       }
     ],
