@@ -1392,6 +1392,733 @@
       }
     ],
     "explanation": ""
+  },
+  {
+    "question": " Jelölje az ábrával kapcsolatos igaz állításokat! <br> <img src=\"image2.PNG\">",
+    "options": [
+      {
+        "text": "Kommunikációs diagram látható, melyen amin egy kliens szolgáltatást hív meg egy szerveren, az visszaigazolja, majd az a kapott eredményt visszaadja.",
+        "correct": true
+      },
+      {
+        "text": "Kommunikációs diagram látható, melyen amin egy kliens szolgáltatást hív meg egy szerveren, majd az a kapott eredményt visszaadja.",
+        "correct": false
+      },
+      {
+        "text": "Hiányos idő diagram látható, melyen amin egy kliens szolgáltatást hív meg egy szerveren, az visszaigazolja, majd az a kapott eredményt visszaadja.",
+        "correct": false
+      },
+      {
+        "text": "Hiányos szekvencia diagram látható, melyen amin egy kliens szolgáltatást hív meg egy szerveren, az visszaigazolja, majd az a kapott eredményt visszaadja.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Az alábbi ábra alapján jelölje az igaz állításokat! <br> <img src=\"image3.PNG\">",
+    "options": [
+      {
+        "text": "Lesz olyan szerverre vonatkozó állapotgép, ahol az egyik állapot „várakozás” lesz.",
+        "correct": false
+      },
+      {
+        "text": "Lesz olyan kliensre vonatkozó állapotgép, ahol az egyik állapot „várakozás” lesz, ebből csak kivezető állapotátmenet lesz.",
+        "correct": true
+      },
+      {
+        "text": "Lesz olyan kliensre vonatkozó állapotgép, ahol az egyik állapot „várakozás” lesz, ebből több kivezető állapotátmenet lehet.",
+        "correct": false
+      },
+      {
+        "text": "Lesz olyan szerverre vonatkozó állapotgép, ahol a „Kérés” és „Szünet” állapotok oda-vissza járhatóak.",
+        "correct": true
+      },
+      {
+        "text": "Lesz olyan szerverre vonatkozó állapotgép, ahol a „kiszámítás” állapot elhagyásához olyan eseményre van szükség, mely kapott eredményt küld",
+        "correct": true
+      },
+      {
+        "text": "Kommunikációs diagramot látunk, időzítési megkötésekkel",
+        "correct": false
+      },
+      {
+        "text": "Egyik állítás sem igaz",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Hogyan kell értelmezni a kontextus interakciós ábrákat?",
+    "options": [
+      {
+        "text": "Olyan idődiagram, melyen környezeti előírások szerepelnek",
+        "correct": false
+      },
+      {
+        "text": "Olyan szekvencia diagram, melyen nem funkcionális megkötések szerepelnek.",
+        "correct": true
+      },
+      {
+        "text": "Olyan kommunikációs diagram, melyen környezeti előírások szerepelnek",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Szekvencia diagram esetén hogyan kell értelmezni a STRICT operátort?",
+    "options": [
+      {
+        "text": "A halmazban lévő operandusok szigorú sorrendjét írja elő",
+        "correct": true
+      },
+      {
+        "text": "Szigorú minőségi követelményeket ír le",
+        "correct": false
+      },
+      {
+        "text": "Csak akkor jöhet a következő, ha az előző teljes mértékben befejeződött",
+        "correct": true
+      },
+      {
+        "text": "Csak kezdési sorrendet szab meg, a befejezés a futásidő függvénye",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Szekvencia diagram esetén hogyan kell értelmezni a REF operátort?",
+    "options": [
+      {
+        "text": "Szigorú minőségi követelményeket ír le",
+        "correct": false
+      },
+      {
+        "text": "Csak akkor jöhet a következő, ha az előző teljes mértékben befejeződött",
+        "correct": false
+      },
+      {
+        "text": "Hivatkozás másik diagramra",
+        "correct": true
+      },
+      {
+        "text": "Azt szabja meg, hogy a halmazban lévő műveleteknek le kell futnia, opcionálisan.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Szekvencia diagram esetén hogyan kell értelmezni a BRK operátort?",
+    "options": [
+      {
+        "text": "Szigorú minőségi követelményeket ír le.",
+        "correct": false
+      },
+      {
+        "text": "A megszakítás esetén bekövetkező működést írja le",
+        "correct": true
+      },
+      {
+        "text": "Hivatkozás másik diagramra",
+        "correct": false
+      },
+      {
+        "text": "Tetszőlegesen felhasználható rövidítés, meg kell nézni az UML Modeling Guidelines dokumentumban, hogy aktuálisan mire van használva",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Szekvencia diagram esetén hogyan kell értelmezni a ALT operátort?",
+    "options": [
+      {
+        "text": "Csak akkor jöhet a következő, ha az előző teljes mértékben befejeződött és megvan a számítási érték",
+        "correct": false
+      },
+      {
+        "text": "Egymást kizáró működéseket ír le",
+        "correct": true
+      },
+      {
+        "text": "A párhuzamosítási alternatívákat jelöli",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Szekvencia diagram esetén hogyan kell értelmezni a LOOP operátort?",
+    "options": [
+      {
+        "text": "Egymást kizáró működéseket ír le.",
+        "correct": false
+      },
+      {
+        "text": "Csak akkor jöhet a következő, ha az előző teljes mértékben befejeződött és megvan a számítási érték.",
+        "correct": false
+      },
+      {
+        "text": "A párhuzamosítási alternatívákat jelöli",
+        "correct": false
+      },
+      {
+        "text": "Ismétlődés szemléltetéséhez használható",
+        "correct": true
+      },
+      {
+        "text": "STRICT és ALT használatát váltja ki",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Szekvencia diagram esetén hogyan kell értelmezni a SEQ operátort?",
+    "options": [
+      {
+        "text": "Egymást kizáró működéseket ír le.",
+        "correct": false
+      },
+      {
+        "text": "Hasonlít a STRICT-hez, de itt a sorrendiség csak indításkor fontos",
+        "correct": true
+      },
+      {
+        "text": "A párhuzamosítási alternatívákat jelöli",
+        "correct": false
+      },
+      {
+        "text": "Ismétlődés szemléltetéséhez használható",
+        "correct": false
+      },
+      {
+        "text": "STRICT szinonimája, csak ezt általában UML2-ben használják.",
+        "correct": false
+      },
+      {
+        "text": "Sorba kapcsolja az interakciókat",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Szekvencia diagram esetén hogyan kell értelmezni a PAR operátort?",
+    "options": [
+      {
+        "text": "Egymást kizáró működéseket ír le.",
+        "correct": false
+      },
+      {
+        "text": "Hasonlít a STRICT-hez, de itt a sorrendiség csak indításkor fontos",
+        "correct": false
+      },
+      {
+        "text": "A párhuzamosan indítandó elemeket jelöli",
+        "correct": true
+      },
+      {
+        "text": "Ismétlődés szemléltetéséhez használható",
+        "correct": false
+      },
+      {
+        "text": "STRICT szinonimája, csak ezt általában UML2-ben használják.",
+        "correct": false
+      },
+      {
+        "text": "Egyidejűséget jelöl",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Szekvencia diagram esetén hogyan kell értelmezni a REGION operátort?",
+    "options": [
+      {
+        "text": "Egymást kizáró működéseket ír le.",
+        "correct": false
+      },
+      {
+        "text": "Hasonlít a STRICT-hez, de itt a sorrendiség csak indításkor fontos",
+        "correct": false
+      },
+      {
+        "text": "A párhuzamosan indítandó elemeket jelöli",
+        "correct": false
+      },
+      {
+        "text": "Ismétlődés szemléltetéséhez használható",
+        "correct": false
+      },
+      {
+        "text": "PAR esetén a kötelezően egyben végrehajtandó részt jelöli",
+        "correct": true
+      },
+      {
+        "text": "Egyidejűséget jelöl",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Szekvencia diagramon feltüntethető az objektum aktuális állapota, téglalapba írva",
+        "correct": false
+      },
+      {
+        "text": "Szekvencia diagramon feltüntethető az objektum aktuális állapota, lekerekített téglalapba írva",
+        "correct": true
+      },
+      {
+        "text": "Szekvencia diagramon feltüntethető az objektum aktuális állapota, ellipszisbe írva.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Az interakciós áttekintés olyan tevékenységdiagram, melyen szekvencia diagramokat hivatkozhatunk",
+        "correct": true
+      },
+      {
+        "text": "Az interakciós áttekintés olyan osztálydiagram, melyen szekvencia diagramokat hivatkozhatunk",
+        "correct": false
+      },
+      {
+        "text": "Az interakciós áttekintés olyan szekvencia diagram, melyen kommunikációs diagramokat hivatkozhatunk",
+        "correct": false
+      },
+      {
+        "text": "Az interakciós áttekintés olyan szekvencia diagram, melyen aktivitási diagramokat hivatkozhatunk",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Osztálydiagramon az osztály rajzelemben feltüntethetőek objektum életciklus hivatkozások.",
+        "correct": true
+      },
+      {
+        "text": "Osztálydiagramon az osztály rajzelemben feltüntethetőek use case hivatkozások.",
+        "correct": true
+      },
+      {
+        "text": "Az objektum életciklus diagram bemutatja, hogy milyen műveletek hatására melyik állapotból, melyik állapotba kerül egy példány.",
+        "correct": true
+      },
+      {
+        "text": "Az állapotgép tulajdonképpen nem más, mint egy use-case és metódus-megvalósítás összerendelés",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Állapotgépen az összetett állapot jele egy lekerekített téglalap, benne két kisebb jellel.",
+        "correct": true
+      },
+      {
+        "text": "Állapotgépen az összetett állapot jele lehet egy három részre osztott lekerekített téglalap",
+        "correct": false
+      },
+      {
+        "text": "Állapotgépen az összetett állapot jele lehet egy két részre osztott lekerekített téglalap",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Állapotgépen az összetett állapot jele lehet egy két részre osztott lekerekített téglalap – fent az állapot neve, lent tevékenységdiagram részlettel",
+        "correct": true
+      },
+      {
+        "text": "Állapotgépen az összetett állapot kibontható és több alállapotot tartalmaz, állapotátmenetekkel",
+        "correct": true
+      },
+      {
+        "text": "Állapotgépen az összetett állapot kibontható és több alállapotot tartalmaz, állapotátmenetek nélkül.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Jelölése téglalap, benne a választás, és a kimeneteken szögletes zárójelben a feltételek.",
+        "correct": false
+      },
+      {
+        "text": "Állapotgépen az esetválasztó csúcs csak egymást kizáró kimeneteket tartalmazhat.",
+        "correct": true
+      },
+      {
+        "text": "Jelölése rombusz, benne a választás, és a kimeneteken szögletes zárójelben a feltételek.",
+        "correct": true
+      },
+      {
+        "text": "Állapotgépen az esetválasztó csúcs nem csak egymást kizáró kimeneteket tartalmazhat, valamint párhozamos működés esetén jelezheti a párhuzamos szakasz kezdetét.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": " Az ábra alapján jelölje az igaz állításokat! <br> <img src=\"image4.PNG\">",
+    "options": [
+      {
+        "text": "Az ábrán egy állapotgép részlet látható, mely adott osztály működését írja le",
+        "correct": true
+      },
+      {
+        "text": "Az ábrán egy forgatókönyvhöz tartozó aktivitás diagram részlet látható, mely alapján kialakítható a csomagdiagram.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje, mely ábrázolási módok szabványosak UML2-ben, állapotautomatákra!",
+    "options": [
+      {
+        "text": "Egyik sem",
+        "correct": false
+      },
+      {
+        "text": "A következő: <img src=\"image5.PNG\"",
+        "correct": true
+      },
+      {
+        "text": "A következő: <img src=\"image6.PNG\"",
+        "correct": true
+      },
+      {
+        "text": "A következő: <img src=\"image7.PNG\"",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje, mely ábrázolási módok szabványosak UML2-ben, állapotautomatákra!",
+    "options": [
+      {
+        "text": "Egyik sem",
+        "correct": true
+      },
+      {
+        "text": "A következő: <img src=\"image8.PNG\"",
+        "correct": true
+      },
+      {
+        "text": "A következő: <img src=\"image9.PNG\"",
+        "correct": true
+      },
+      {
+        "text": "A következő: <img src=\"image10.PNG\"",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Állapotgépekkel kapcsolatban melyik állítás(ok) igaz?",
+    "options": [
+      {
+        "text": "Egyszerű történeti állapot esetén (Közvetlen tartalmazó állapotba érkezéskor a közvetlen tartalmazott régióban elsőként) a történeti állapot rákövetkező állapotába kerül a vezérlés, amennyiben a történeti állapot üres. Ha nem üres, akkor azt az állapotot veszi fel újra az automata, melyben akkor volt, amikor a közvetlen tartalmazó állapot elhagyásra került.",
+        "correct": true
+      },
+      {
+        "text": "Egyszerű történeti állapot esetén (Közvetlen tartalmazó állapotba érkezéskor a közvetlen tartalmazott régióban elsőként) a történeti állapotba kerül a vezérlés, amennyiben a történeti állapot üres. Ha nem üres, akkor azt az állapotot veszi fel újra az automata, melyben akkor volt, amikor a közvetlen tartalmazó állapot elhagyásra került.",
+        "correct": false
+      },
+      {
+        "text": "Egyszerű történeti állapot esetén (Közvetlen tartalmazó állapotba érkezéskor a közvetlen tartalmazott régióban elsőként) a történeti állapot rákövetkező állapotába kerül a vezérlés, amennyiben a történeti állapot üres. Ha nem üres, akkor azt az állapotot veszi fel újra az automata, melyben akkor volt, amikor a közvetlen tartalmazó állapot elhagyásra került. Az állapotkonfiguráció is visszaállításra kerül.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Állapotgépek kapcsán melyik összerendelés(ek) helyes?",
+    "options": [
+      {
+        "text": "<img src=\"image11.PNG\"- Egyszerű kezdő állapot",
+        "correct": true
+      },
+      {
+        "text": "<img src=\"image12.PNG\"- Mély történeti állapot",
+        "correct": false
+      },
+      {
+        "text": "<img src=\"image13.PNG\"- Egyszerű történeti állapot",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Igaz-e az alábbi állítás: Mély történeti állapot estén (Közvetlen tartalmazó állapotba érkezéskor a közvetlen tartalmazott régióban elsőként) a történeti állapot rákövetkező állapotába kerül a vezérlés, amennyiben a történeti állapot üres. Ha nem üres, akkor azt az állapotot veszi fel újra az automata, melyben akkor volt, amikor a közvetlen tartalmazó állapot elhagyásra került, de nem csak az állapot, hanem az állapotkonfiguráció kerül visszaállításra.",
+    "options": [
+      {
+        "text": "Igaz",
+        "correct": true
+      },
+      {
+        "text": "Hamis",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Igaz-e az alábbi állítás: Egyszerű történeti állapot estén (Közvetlen tartalmazó állapotba érkezéskor a közvetlen tartalmazott régióban elsőként) a történeti állapot rákövetkező állapotába kerül a vezérlés, amennyiben a történeti állapot üres. Ha nem üres, akkor azt az állapotot veszi fel újra az automata, melyben akkor volt, amikor a közvetlen tartalmazó állapot elhagyásra került, de nem csak az állapot, hanem az állapotkonfiguráció kerül visszaállításra.",
+    "options": [
+      {
+        "text": "Igaz",
+        "correct": false
+      },
+      {
+        "text": "Hamis",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "A dialóguslefutás az állapotgép egyik fajtája, de állapotokként a képernyő állapotait kell feltüntetni",
+        "correct": true
+      },
+      {
+        "text": "A dialóguslefutás az tevékenységdiagram egyik fajtája, de tevékenységekként a képernyő helyzetét kell feltüntetni.",
+        "correct": false
+      },
+      {
+        "text": "A dialóguslefutás az objektumdiagram egyik fajtája, de objektumok helyett a képernyőket kell feltüntetni.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Egy UML-modell összefüggő (konzisztens), ha use case diagramjain nincs sem olyan use case, sem olyan aktor, mely nem vesz részt interakcióban.",
+        "correct": false
+      },
+      {
+        "text": "Egy UML-modell összefüggő (konzisztens), ha osztálydiagramján nincs elszigetelt osztály",
+        "correct": false
+      },
+      {
+        "text": "Egy UML-modell összefüggő (konzisztens), ha létezik hozzá egy bizonyos lehetséges működőképes implementáció",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Egy inkonzisztens specifikáció azzal jár, hogy nem lehet meghatározni a use casek közötti összefüggéseket.",
+        "correct": false
+      },
+      {
+        "text": "Egy inkonzisztens specifikáció azzal jár, hogy nem lehet belőle olyan szoftvert fejleszteni, ami működőképes lenne.",
+        "correct": true
+      },
+      {
+        "text": "Egy inkonzisztens specifikáció azzal jár, hogy lesznek olyan osztályok, melyek ugyan meg vannak valósítva, de használatban nincsenek.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Egy UML tervezési modellt teljesnek nevezünk, ha az általa leírt szoftver-rendszer állapotai és viselkedési módjai mindegyik lehetséges működési esetre és feltételre specifikálva lettek.",
+        "correct": true
+      },
+      {
+        "text": "Egy UML tervezési modellt teljesnek nevezünk, ha abban minden – szakterület által megkívánt – aktor megtalálható.",
+        "correct": false
+      },
+      {
+        "text": "Egy UML tervezési modellt teljesnek nevezünk, ha az általa leírt use casek és forgatókönyveik mindegyik lehetséges forgatókönyveik specifikálva lettek.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Jelenleg úgy a teljesség, mint a konzisztencia megléte bizonyítható emulációs szoftverek segítségével.",
+        "correct": false
+      },
+      {
+        "text": "Jelenleg nincs megoldva még a teljesség bizonyításának vagy cáfolásának feladata",
+        "correct": true
+      },
+      {
+        "text": "Jelenleg ugyan rendelkezésre áll olyan módszer, ill. a módszert megvalósító számítógépes eszköz, ami egy szoftver-terv UML-diagramjai közötti összhang bizonyítására, ill. cáfolására alkalmas lenne, ám ennek használata nem terjedt el.",
+        "correct": false
+      },
+      {
+        "text": "Jelenleg nem áll rendelkezésre olyan módszer, ill. a módszert megvalósító számítógépes eszköz, ami egy szoftverterv UML-diagramjai közötti összhang bizonyítására, ill. cáfolására lenne alkalmas.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "A komponens diagram a komponensekből felépülő szoftver-rendszer struktúráját vázolja fel.",
+        "correct": true
+      },
+      {
+        "text": "A komponens adott modellelemek (osztályok, csomagok) fizikai egysége.",
+        "correct": true
+      },
+      {
+        "text": "A komponens diagram jól modellezi a szoftver-komponensek egymáshoz való viszonyát, kommunikációját.",
+        "correct": true
+      },
+      {
+        "text": "A komponens adott modellelemek (use case és forgatókönyv) fizikai egysége.",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "UML szimbóluma egy téglalap, amelynek bal oldalát két kisebb téglalap metszi.",
+        "correct": true
+      },
+      {
+        "text": "Egy komponensben csak egy implementációs osztály valósulhat meg, vagy számos tervezési osztály.",
+        "correct": false
+      },
+      {
+        "text": "UML szimbóluma egy téglalap, amelynek jobb felső sarkát körbe írt paraméter jellemezhet",
+        "correct": false
+      },
+      {
+        "text": "Egy komponensben számos implementációs osztály valósulhat meg.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Komponens diagramon a <<executable>> sztereotípia használható komponensek jellemzésére.",
+        "correct": true
+      },
+      {
+        "text": "Komponens diagramon a <<trace>> sztereotípia használható komponensek jellemzésére.",
+        "correct": false
+      },
+      {
+        "text": "Komponens diagramon a <<implements>> sztereotípia használható komponensek jellemzésére.",
+        "correct": false
+      },
+      {
+        "text": "Komponens diagramon a <<snapshot>> sztereotípia használható komponensek jellemzésére.",
+        "correct": false
+      },
+      {
+        "text": "Komponens diagramon a <<file>> sztereotípia használható komponensek jellemzésére",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "Komponens diagramon a <<file>> sztereotípia használható komponensek jellemzésére.",
+        "correct": true
+      },
+      {
+        "text": "Komponens diagramon a <<instanceOf>> sztereotípia használható komponensek jellemzésére",
+        "correct": false
+      },
+      {
+        "text": "Komponens diagramon a <<library>> sztereotípia használható komponensek jellemzésére.",
+        "correct": true
+      },
+      {
+        "text": "Komponens diagramon a <<property>> sztereotípia használható komponensek jellemzésére.",
+        "correct": false
+      },
+      {
+        "text": "Komponens diagramon a <<document>> sztereotípia használható komponensek jellemzésére.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jelölje az igaz állításokat!",
+    "options": [
+      {
+        "text": "A telepítési diagram minden egyes csomópontja (node) valamilyen számítási feldolgozási egységet képvisel, egy szoftver vagy egy hardver elemet.",
+        "correct": true
+      },
+      {
+        "text": "A telepítési és komponens diagramok nem kombinálhatóak közös ábrába.",
+        "correct": false
+      },
+      {
+        "text": "A telepítési diagram minden egyes csomópontja (node) valamilyen számítási feldolgozási egységet képvisel, egy szoftver vagy egy hardver elemet. A hardver lehet egy kisebb egység, de lehet egy teljes számítógép is.",
+        "correct": true
+      },
+      {
+        "text": "A telepítési és komponens diagramok nem kombinálhatóak közös ábrába.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
   }
-
 ]
