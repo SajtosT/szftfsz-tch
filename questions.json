@@ -230,7 +230,7 @@
     "explanation": ""
   },
   {
-    "question": "Osztálydiagramon mit jelent az <<abstract>> sztereotípia?",
+    "question": "Osztálydiagramon mit jelent az abstract sztereotípia?",
     "options": [
       {
         "text": "Olyan osztályt jelöl, melyet nem lehet további öröklési hierarchiában felhasználni.",
@@ -252,7 +252,7 @@
     "explanation": ""
   },
   {
-    "question": "Osztálydiagramon mit jelent az <<entity>> sztereotípia?",
+    "question": "Osztálydiagramon mit jelent az entity sztereotípia?",
     "options": [
       {
         "text": "A felhasználó számára fontos entitások jelölésére szolgál",
@@ -270,7 +270,7 @@
     "explanation": ""
   },
   {
-    "question": "Osztálydiagramon mit jelent az <<boundary>> sztereotípia?",
+    "question": "Osztálydiagramon mit jelent az boundary sztereotípia?",
     "options": [
       {
         "text": "A felhasználó számára fontos entitások jelölésére szolgál",
@@ -292,7 +292,7 @@
     "explanation": ""
   },
   {
-    "question": "Osztálydiagramon mit jelent az <<uses>> sztereotípia?",
+    "question": "Osztálydiagramon mit jelent az uses sztereotípia?",
     "options": [
       {
         "text": "Interfész használatot",
@@ -1802,50 +1802,6 @@
     "explanation": ""
   },
   {
-    "question": "Jelölje, mely ábrázolási módok szabványosak UML2-ben, állapotautomatákra!",
-    "options": [
-      {
-        "text": "Egyik sem",
-        "correct": false
-      },
-      {
-        "text": "A következő: <img src=\"image5.PNG\">",
-        "correct": true
-      },
-      {
-        "text": "A következő: <img src=\"image6.PNG\">",
-        "correct": true
-      },
-      {
-        "text": "A következő: <img src=\"image7.PNG\">",
-        "correct": true
-      }
-    ],
-    "explanation": ""
-  },
-  {
-    "question": "Jelölje, mely ábrázolási módok szabványosak UML2-ben, állapotautomatákra!",
-    "options": [
-      {
-        "text": "Egyik sem",
-        "correct": true
-      },
-      {
-        "text": "A következő: <img src=\"image8.PNG\">",
-        "correct": true
-      },
-      {
-        "text": "A következő: <img src=\"image9.PNG\">",
-        "correct": true
-      },
-      {
-        "text": "A következő: <img src=\"image10.PNG\">",
-        "correct": true
-      }
-    ],
-    "explanation": ""
-  },
-  {
     "question": "Állapotgépekkel kapcsolatban melyik állítás(ok) igaz?",
     "options": [
       {
@@ -1858,24 +1814,6 @@
       },
       {
         "text": "Egyszerű történeti állapot esetén (Közvetlen tartalmazó állapotba érkezéskor a közvetlen tartalmazott régióban elsőként) a történeti állapot rákövetkező állapotába kerül a vezérlés, amennyiben a történeti állapot üres. Ha nem üres, akkor azt az állapotot veszi fel újra az automata, melyben akkor volt, amikor a közvetlen tartalmazó állapot elhagyásra került. Az állapotkonfiguráció is visszaállításra kerül.",
-        "correct": false
-      }
-    ],
-    "explanation": ""
-  },
-  {
-    "question": "Állapotgépek kapcsán melyik összerendelés(ek) helyes?",
-    "options": [
-      {
-        "text": "<img src=\"image11.PNG\"> - Egyszerű kezdő állapot",
-        "correct": true
-      },
-      {
-        "text": "<img src=\"image12.PNG\"> - Mély történeti állapot",
-        "correct": false
-      },
-      {
-        "text": "<img src=\"image13.PNG\"> - Egyszerű történeti állapot",
         "correct": false
       }
     ],
